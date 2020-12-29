@@ -7,6 +7,10 @@
     <link rel="stylesheet" href="./style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+        integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+        crossorigin="anonymous" />
+
     <title>Login</title>
 </head>
 
@@ -15,20 +19,60 @@
     <div class="container">
         <div class="card">
 
-            <div class="login-section">
+            <form class="login-section">
 
-                <div class="google-login-btn">
-                    <img src="./google.png" alt="">
+                <button class="google-login-btn">
+                    <img src="./images/google.png" alt="Google Image">
+                    Log in with Google
+                </button>
+
+                <small>or</small>
+
+                <div class="form-control">
+                    <label class="email-txt" for="email">Email</label>
+                    <input type="email" id="email-id" placeholder="Enter your email">
                 </div>
 
 
-            </div>
+                <div class="form-control">
+                    <label class="password-txt" for="password">Password</label>
+                    <input type="password" id="password-id" placeholder="Password">
+                </div>
 
-            <div class="divider">
+                <div class="forgot-password-section">
+                    <input type="checkbox" id="remember">
+                    <label for="remember">Remember me</label>
+                    <a href="#">Forgot password?</a>
+                </div>
 
-            </div>
+                <button class="login-btn">Log in</button>
+                <small> Don't have an account? <a href="signup.com">Sign up</a></small>
+            </form>
 
             <div class="details-section">
+                <div class="feature">
+                    <i class="fas fa-code"></i>
+                    <h3>Development</h3>
+                    <p>A modern and clean design system for developing fast
+                        and powerful web interfaces
+                    </p>
+                </div>
+
+                <div class="feature">
+                    <i class="fas fa-gift"></i>
+                    <h3>Features</h3>
+                    <p>A modern and clean design system for developing fast
+                        and powerful web interfaces
+                    </p>
+                </div>
+
+                <div class="feature">
+                    <i class="fas fa-edit"></i>
+                    <h3>Updates</h3>
+                    <p>A modern and clean design system for developing fast
+                        and powerful web interfaces
+                    </p>
+                </div>
 
             </div>
 
